@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+
+#blackSpace{
+    background-color: black;
+}
+
+#aboutBackground{
+    min-height: 1200px;
+    background-image: url(woolSpin2.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    height: 100%;
+}
+#backgroundBox{
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+    padding-bottom: 
+}
+#aboutMe{
+    font-family: courier;
+    color: rgb(248,126,6);
+    font-size: 65px;
+    border-bottom: 5px solid white;
+}
+#aboutBox{
+    margin: 50px;
+    text-align: center; 
+}
+#aboutText{
+    font-size: 20px;
+    color: white;
+    font-family: courier;
+}
+#picOfMe{
+    width: 300px;
+    position: relative;
+    border-top: 10px solid white;
+    border-left: 10px solid rgb(63,63,63);
+    border-bottom: 10px solid white;
+    border-right: 10px solid rgb(63,63,63);
+}
+
+@media screen and (max-width: 1280px){
+    #backgroundBox{
+        width: 100%;
+       
+    }
+    
+}
+
+@media screen and (max-width:1100px){
+    #blackSpace{
+        height: 300px;
+    }
+}
+@media screen and (max-width:800px){
+    #blackSpace{
+        height: 500px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    #picOfMe{
+        width: 200px;
+    }
+    #blackSpace{
+        height: 700px;
+    }
+}
+@media screen and (max-width: 520px){
+    #blackSpace{
+        height: 1000px;
+    }
+}
+@media screen and (max-width: 450px){
+    #blackSpace{
+        height: 2100px;
+    }
+}
+@media screen and (max-width: 1270px){
+    #backgroundBox{
+        top:100px;
+    }
+}
+

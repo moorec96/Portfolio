@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <title>Caleb's Portfolio</title>
+        <link href="portIdeaStyle.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+
+    <body>
+        <!--        <div id="screenHeight"></div>-->
+        <div id="homeBackground">
+            <div id="frontPage">
+                <p id="quote">Hi! My name Is Caleb and I am a student at the University of Washington, Bothell. Feel Free to explore this website to learn more about me!</p>
+            </div>
+        </div>
+
+        <div class="vertNavBox">
+            <nav class="navbar navbar-inverse navbar-fixed-top vertNav">
+                <button type="button" class="navButtonClose" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="navButtonOpen" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                </button>
+                <div class="navbar-header">
+                    <a class="navbar-brand homePage" href="index.html">Welcome</a>
+                </div>
+                <ul class=" vert nav navbar-nav">
+                    <li class=" nav navbar-nav home"><a href="index.html">Home</a>
+                        <ul class="homeLinks">
+                            <li><a class="homePageLinks" href="#skills">Skills</a></li>
+                            <li><a class="homePageLinks jobExp" href="#jobExperience">Job Experience</a></li>
+                            <li><a class="homePageLinks" href="#projects">Projects</a></li> 
+                        </ul>
+                    <li class="nav navbar-nav About"><a href="portfolioAbout.html">About</a></li>
+                    <li class="nav navbar-nav Contact"><a href="portfolioContact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+        <div class="horizNavBox">
+            <nav class="navbar navbar-inverse navbar-fixed-top horizNav">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand calebPortfolio" href="index.html">Caleb's Portfolio</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav horiz">
+                            <li class="dropdown">
+                                <a href="index.html" class="dropdown-toggle" id="horizHome" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#skills">Skills</a></li>
+                                    <li><a href="#jobExperience">Job Experience</a></li>
+                                    <li><a href="#projects">Projects</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="portfolioAbout.html" id="horizAbout">About</a></li>
+                            <li><a href="portfolioContact.html" id="horizContact">Contact</a></li>
+
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </nav>
+        </div>
+
+
+
+        <div class="homeContent">
+            <div id="skills">
+                <div class="content">
+                    <h1 id="skillsTitle" class="sectionTitles">Skills</h1>
+                    <div class="container-fluid skillsBox">
+                        <div class="row skillsColumns" id="skillsColumn">
+                            <div class="col-md-4 programming">
+                                <h1>Programming Languages</h1>
+                                <ul id="programmingLanguages">
+                                    <li class="languages">C++</li>
+                                    <li class="languages">Java</li>
+                                    <li class="languages">Processing</li>
+                                    <li class="languages">HTML/CSS</li>
+                                    <li class="languages">Javascript</li>
+                                    <li class="languages">Visual Scripting(Unreal Engine)</li>
+                                    <li class="languages">Twine</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 music">
+                                <h1>Music</h1>
+                                <p class="musicText" id="musicInfo">I have been playing guitar since I was 12 years old, and have always had a huge interest in music </p>
+                                <p class="musicText" id="chapelInfo">I also played on my schools worship team for all four years of high school </p>
+                            </div>
+                            <div class="col-md-4 writing">
+                                <h1>Creative Writing</h1>
+                                <p class="writingText">Ever since I was a little kid I have enjoyed writing fictional narratives. The idea of creating my own little world, and developing backstories for characters excites me. I think pursuing this in a game industry would be a dream come true.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="jobExperience">
+                <div class="content">
+                    <h1 id="jobTitle" class="sectionTitles">Job Experience</h1>
+                    <p id="jobExpText">Over the years I have worked at...</p>
+                    <table class="jobsList">
+                        <tr>
+                            <th scope="row">24 Hour Fitness:</th>
+                            <td>Service Representative</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">R & T Enterprises:</th>
+                            <td>Shipment Handler</td>
+                        </tr>
+                        <tr>
+
+                            <th scope="row">Nintendo:</th>
+                            <td>Warehouse Worker</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Safeway:</th>
+                            <td>Cashier</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Electric Bean:</th>
+                            <td>Barista</td>
+                        </tr>
+                    </table>
+                    <button type="button" class="jobsBtn" id="jobsDownBtn" aria-label="Left Align">
+                        <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                    </button>
+                    <button type="button" class="jobsBtn" id="jobsUpBtn" aria-label="Left Align">
+                        <span class="glyphicon glyphicon-menu-Up" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+            <div id="projects">
+                <div class="content">
+                    <h1 id="projectTitle" class="sectionTitles">Projects</h1>
+                    <div class="projectsBox">
+                        <div class="container-fluid snakeBox">
+                            <h1 class="projectSubTitle">Snake</h1>
+                            <p class="projectInfo">I created this program for my final project in CSS 161. I was very pleased with the outcome, and still play this game from time to time to try and beat my high score. This program was made in Java.</p>
+                            <img id="snakeImg" src="snake.PNG">
+                            <img id="snakeCode" src="snakeCode.PNG">
+                        </div>
+                        <div class="container-fluid asteroidBox">
+                            <h1 class="projectSubTitle">Asteroids</h1>
+                            <p class="projectInfo">For this game I worked in a group with two other people from my CSS 101 class and we turned it in as our final project. The art was also created in our group. This program was created in Processing</p>
+                            <img id="asteroidsImg" src="asteroidsImg.PNG">
+                            <img id="asteroidsCode" src="asteroidsCode.PNG">
+                        </div>
+                        <div class="container-fluid twine">
+                            <h1 class="projectSubTitle">Paradise Falls</h1>
+                            <p class="projectInfo">This game was created during my Intro to Interactive Media class. Paradise Falls is the story of a man living in a dystopic future, who fights to break free and save humanity. This program was created in Twine.</p>
+                            <img id="paradiseFallsImg" src="twineImg.PNG">
+                            <img id="paradiseFallsCode" src="twine1.PNG">
+                        </div>
+                        <div class="container-fluid akiasMind">
+                            <h1 class="projectSubTitle">Akia's Mind</h1>
+                            <p class="projectInfo">Akia's Mind is a science fiction short story that I wrote in my BCORE class during my first quarter at UW Bothell. Out of approximately 50 students, my story, as well as 8 other students stories, were chosen to be published for the following years textbook. This is the story of man against robot in a not too far off future where the machines have realized that the only logical way to bring peace to Earth, is to destroy the emotionaly unstable humans. The story was published in <em>The Monolith Volume IV.</em></p>
+                            <div id="bookBox">
+                                <img id="monolithFront" src="monolithFront.jpg">
+                                <img id="monolithBack" src="monolithBack.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bootLogo">
+            <img class="bootstrapLogo"src="bootstrap.png">
+        </div>
+        <script src="jquery-3.1.1.js"></script>
+        <script src="portIdeaScript.js"></script>
+    </body>
+</html>

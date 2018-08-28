@@ -1,0 +1,688 @@
+body{
+    font-family: courier;
+    background-color: black;
+    height: auto;
+}
+
+/*
+#screenHeight{
+width: 100px;
+height: 50px;
+color: black;
+font-size: 30px;
+}
+*/
+
+.navButtonOpen{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:550px;
+    visibility: visible;
+    border-radius: 50%;
+    background-color: rgb(63,63,63);
+    color: white;
+}
+.navButtonClose{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 550px;
+    left: 250px;
+    visibility: hidden;
+    border-radius: 50%;
+    background-color: rgb(63,63,63);
+    color: white;
+    z-index: 2;
+}
+#homeBackground{
+    min-height: 800px;
+    width: 100%;
+    height: 100%;
+    background-image: url(woolSpin2.JPG);
+    background-position: center;
+    background-size: cover;
+}
+#frontPage{
+    color: white;
+    position: relative;
+    width: 900px; 
+    height: auto;
+    top: 150px;
+    margin: 0 auto;
+    background-color: rgb(63,63,63);
+    opacity: 0.7;
+    border: 10px solid rgb(248,126,6);
+
+}
+#quote{
+    font-family: courier;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+nav{
+    opacity: 0.6;
+}
+
+nav.vertNav{
+    width: 350px;
+    height: 100%;
+    visibility: hidden;
+}
+nav:hover{
+    opacity:1.0;
+    padding-left: 0px;
+}
+.navbar .navbar-brand.homePage{
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-size: 75px;
+}
+.navbar-nav{
+    float: none;  
+    width: 90%;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+
+
+.navbar .navbar-brand.calebPortfolio{
+    font-size: 50px;
+    color: rgb(248,126,6);
+}
+#horizHome{
+    font-size: 25px;
+    margin-right: 50px;
+}
+#horizAbout{
+    font-size: 25px;
+    margin-right: 50px;
+}
+#horizContact{
+    font-size: 25px;
+    margin-right: 50px;
+}
+.navbar-nav > li > .dropdown-menu {
+    background-color: rgb(248,126,6);
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+.home{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.otherHome{
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+.homeLinks{
+    padding-left: 75px;
+}
+.homePageLinks{
+    color:rgb(248,126,6);
+}
+.homePageLinks:hover{
+    color: white;
+}
+.about{
+    font-size: 40px;
+    padding-bottom: 250px;
+}
+.otherAbout{
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+
+.contact{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+.homeContent{
+    margin-left: 0;
+
+    height: auto;
+}
+#skills{
+    font-family: courier;
+    background-color: black;
+    color: rgb(248,126,6);
+    padding: 120px;
+    background-image:url(projects02.jpg);
+    background-position: center;
+}
+#skillsTitle{
+    font-size: 75px;
+    text-decoration: underline
+}
+
+.skillsColumns{
+    background-color: rgb(63,63,63);
+    border: 5px solid rgb(248,126,6); 
+}
+.programming{
+    background-color: rgb(63,63,63);
+    padding-bottom: 40px;
+}
+.languages{
+    font-size: 30px;
+    color: white;
+}
+.languages:nth-child(odd){
+    color: rgb(248,126,6);
+}
+.music{
+
+}
+.musicText{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+#musicInfo{
+    color: white;
+}
+.writing{
+    background-color: rgb(63,63,63);
+}
+.writingText{
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+}
+
+
+#jobExperience{
+    font-family: courier;
+    height: auto;
+    padding: 120px;
+    color: white;
+    background-color: rgb(63,63,63); 
+    background-image: url(jobExperience02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#jobContent{
+    margin-left:0;
+}
+#jobTitle{
+    text-decoration: underline;
+    font-size: 75px;
+}
+#jobExpText{
+    padding-left: 50px;
+    font-size: 35px;
+    color: rgb(248,126,6);
+}
+.jobsList{
+    margin-top: 50px;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+}
+.jobsList tr{
+    border: 5px solid white;
+}
+.jobsList th{
+    padding:40px;
+    background-color: black;
+    font-size: 35px;
+    color: rgb(248,126,6);
+}
+.jobsList td{ 
+    padding: 40px;
+    border: 5px solid white;
+    color: black;
+    background-color: rgb(248,126,6);
+}
+.jobsBtn{
+    position:relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    margin: 0 auto;
+    top: 75px;
+}
+#projects{
+    font-family: courier;
+    padding: 120px;
+    background-color: rgb(248,126,6);
+}
+#projectsText{
+    font-size: 25px;
+    color: black;
+}
+#projectTitle{
+    font-size: 75px;
+    text-decoration: underline;
+}
+.projectsBox{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+.projectSubTitle{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.projectInfo{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(63,63,63);
+    padding-bottom: 20px;
+}
+#snakeImg{
+    margin-right: 0;
+    
+}
+#snakeCode{
+    margin-left: 0;
+    width: 825px;
+    height: 820px;
+}
+#asteroidsImg{
+    width: 800px;
+    height: 750px;
+}
+#asteroidsCode{
+    height: 750px;
+    width: 825px;
+}
+#paradiseFallsImg{
+    width: 900px;
+    height: 600px;
+}
+#paradiseFallsCode{
+    height: 600px;
+    width: 720px
+}
+#bookBox{
+    text-align: center;
+}
+#monolithFront{
+    width: 550px;
+}
+#monolithBack{
+    width: 550px;
+}
+
+
+
+
+@media screen and (max-width: 1919px){
+    #snakeCode{
+        width: 700px;
+        height: 720px;
+    }
+    #snakeImg{
+        width: 700px
+    }
+    
+     #asteroidsCode{
+        width: 700px;
+        height: 630px;
+    }
+    #asteroidsImg{
+       width: 700px;
+        height: 630
+    }
+    #paradiseFallsImg{
+        width: 700px;
+        height: 500px;
+    }
+    #paradiseFallsCode{
+        width: 700px;
+        height: 650px;
+    }
+   
+}
+
+@media screen and (max-width: 1700px){
+    #snakeImg{
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    #snakeCode{
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    #asteroidsImg{
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    #asteroidsCode{
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    #paradiseFallsImg{
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    #paradiseFallsCode{
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-height:845px){
+    .about{
+        padding-bottom: 150px;
+    }
+}
+@media screen and (max-height: 720px){
+    .about{
+        padding-bottom: 50px;
+    }
+    .navButtonOpen{
+        top: 450px;
+    }
+    .navButtonClose{
+        top: 450px;
+    }
+    #snakeImg{
+        width: 500px;
+    }
+}
+@media screen and (max-height:650px){
+    .home{
+        padding-bottom: 10px;
+    }
+    .about{
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width:1380px){
+    nav.vertNav{
+        width:250px;
+    }
+    .homeLinks{
+        padding-left: 30px;
+        font-size: 25px;
+    }
+    .navbar-nav.vert{
+        left: 0px;
+    }
+    .navbar .navbar-brand.homePage{
+        font-size: 50px;
+    }
+    .navButtonClose{
+        left: 150px;
+    }
+    @media screen and (max-height:845px){
+        .navButtonClose{
+            top:350px;
+        }
+        .navButtonOpen{
+            top:350px;
+        }
+    }
+}
+
+@media screen and (max-width:920px){
+    #frontPage{
+        width: 100%;
+    }
+    #quote{
+        font-size: 50px;
+        margin: 30px;
+    }
+    .projectsBox{
+        margin-left: -120px;
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .jobsBtn{
+        position: absolute;
+        top:auto;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    .jobsList td{
+        padding: 0px;
+    }
+    .jobsList th{
+        padding: 0px;
+    }
+    .jobsList{
+        margin-left: -120px;
+    }
+    #snakeImg{
+        width: 500px;
+    }
+    #snakeCode{
+        width: 500;
+        height: 550px;
+    }
+    #asteroidsImg{
+        width: 500px;
+    }
+    #asteroidsCode{
+        width: 500;
+        height: 550px;
+    }
+    #paradiseFallsImg{
+        width: 500px;
+        height: 300px;
+    }
+    #paradiseFallsCode{
+        width: 500;
+        height: 450px;
+    }
+    #monolithFront{
+        width: 350px;
+    }
+    #monolithBack{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:750px){
+    #quote{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .skillsColumns{
+        width: 100%;
+    }
+    #skills{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+   
+}
+
+@media screen and (max-width:675px){
+    #jobExperience{
+        height: 500px;
+    }
+    #projectTitle{
+        font-size: 75px;
+        margin-left: -120px;
+    }
+     .projectInfo{
+        display: none;
+    }
+    .projectsBox{
+        width: 0px;
+    }
+    #snakeImg{
+        width: 350px;
+        margin-left: 0;
+    }
+    #snakeCode{
+        width: 350px;
+        margin-left: 0;
+        height: 450px;
+    }
+     #asteroidsImg{
+        width: 350px;
+         height: 350px;
+        margin-left: 0;
+    }
+    #asteroidsCode{
+        width: 350px;
+        margin-left: 0;
+        height: 450px;
+    }
+     #paradiseFallsImg{
+        width: 350px;
+        height: 150px;
+        margin-left: 0;
+    }
+    #paradiseFallsCode{
+        width: 350px;
+        margin-left: 0;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .jobsList td{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .jobsList th{
+        padding: 0px;
+    }
+    .jobsList{
+        font-size: 25px;
+        margin-left: -120px;
+    }
+    #jobExperience{
+        height: 600px;
+    }
+    #jobTitle{
+        margin-left: -50;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #jobExperience{
+        height: 650px;
+    }
+    #jobExpText{
+        margin-left: -120px;
+    }
+    #jobTitle{
+        margin-left: -120;
+        font-size: 55px;
+    }
+    .jobsList th{
+        font-size: 20;
+    }
+    .jobsList td{
+        font-size: 15;
+    }
+    #skillsTitle{
+        font-size: 60px;
+    }
+    .languages{
+        font-size: 20px;
+    }
+    .musicText{
+        font-size: 20px;
+    }
+    .WritingText{
+        font-size: 20px;   
+    }
+    
+    #projectTitle{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .navbar .navbar-brand.calebPortfolio{
+        font-size: 25px;
+    }
+        #snakeImg{
+        width: 300px;
+        margin-left: 0;
+    }
+    #snakeCode{
+        width: 300px;
+        margin-left: 0;
+        height: 300px;
+    }
+     #asteroidsImg{
+        width: 300px;
+        height: 300px;
+        margin-left: 0;
+    }
+    #asteroidsCode{
+        width: 300px;
+        margin-left: 0;
+        height: 300px;
+    }
+     #paradiseFallsImg{
+        width: 300px;
+        height: 150px;
+        margin-left: 0;
+    }
+    #paradiseFallsCode{
+        width: 300px;
+        margin-left: 0;
+        height: 250px;
+    }
+     #monolithFront{
+        width: 300px;
+    }
+    #monolithBack{
+        width: 300px;
+    }
+}
+
+
+
+.bootLogo{
+    width:100%;
+    background-color: black;
+}
+.bootstrapLogo{
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+}
+
+
